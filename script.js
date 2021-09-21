@@ -1,7 +1,7 @@
  document.addEventListener('DOMContentLoaded', function () {
 
       const deadline = new Date(new Date().getFullYear(), new Date().getMonth() + 1, 01);
-      // id таймера
+    
       let timerId = null;
 
       function declensionNum(num, words) {
